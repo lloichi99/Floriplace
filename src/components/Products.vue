@@ -54,7 +54,7 @@ export default {
       }
     };
 
-    // 📌 **Funciones para la Webcam**
+    //**Webcam**
     const initCamera = async () => {
       if (!model) await initModel();
 
@@ -94,7 +94,7 @@ export default {
       }
     };
 
-    // 📌 **Funciones para arrastrar imágenes**
+    //funciones para arrastrar imagen**
     const handleDragOver = (event) => {
       event.preventDefault();
     };
@@ -119,7 +119,7 @@ export default {
       }
     };
 
-    // 📌 **Clasificación de imágenes**
+    //**Clasificación de img**
     const predict = async (imageSource) => {
       if (!model) await initModel();
 
